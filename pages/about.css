@@ -1,0 +1,210 @@
+@import url(./../style.css);
+
+
+.imge-01{
+    background-image: url(https://themes.wplook.com/html/charity/assets/images/temp/main-image-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+    padding: 2em;
+}
+
+.box001{
+    display: flex;
+    width: 200px;
+    height: 48px;
+    background-color: white;
+    justify-content: space-evenly;
+    padding: 0.6em;
+}
+
+.zero{
+    text-decoration: none;
+    color: orange;
+}
+.page2-mainn{
+    display: flex;
+}
+
+.sildbar{
+    width: 70%;
+}
+
+.card{
+    border: none; 
+    
+}
+
+.card-01{
+    min-height: 200px;
+
+}
+
+.btn{
+    border-radius: 0;
+}
+
+.paradiv{
+width: 94%;
+min-height: 100px;
+background-color: rgb(255, 255, 255);
+border: 1px solid gray;
+margin-left: 2em;
+border-left: 4px solid rgb(255, 68, 0);
+padding: 1.1em;
+padding-top: 2em;
+}
+
+.commt{
+    display: flex;
+    width: 100%;
+    min-height: 100px;
+    padding: 1em;
+    border-top: 2px solid rgb(178, 178, 178);
+}
+
+.oreo{
+    background-color: orangered;
+    color: white;
+    height: 35px;
+    width: 100px;
+    border: 1px solid orangered;
+}
+
+.in{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid gray;
+    width: 45%;
+    margin-left: 1em;
+}
+
+.coll{
+    border: none;
+    outline: none;
+    border-bottom: 2px solid gray;
+    width: 94%;
+    margin-left: 1em;
+}
+
+.sidecon1{
+    display: flex;
+
+}
+
+.text-gryy{
+    color: rgb(92, 91, 91);
+}
+
+.hovr:hover{
+    color: orangered;
+}
+
+.div-1{
+    background-image: url(https://themes.wplook.com/html/charity/assets/images/temp/event-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    position: relative;
+    color: white;
+    margin-top: 1.4em;
+    
+}
+
+
+.padding{
+    padding: 0.4em;
+    background-color: orange;
+    position: absolute;
+    bottom: 20%;
+    right: 0%;
+}
+
+.pad-2{
+    position: absolute;
+    bottom: 0%;
+    right: 0%;
+    background-color: black;
+    
+}
+
+.borderr{
+
+    border-bottom: 2px solid rgb(191, 191, 191);
+  padding-bottom: 2em;
+}
+
+.flxx-x{
+    display: flex;
+    gap: 1.1em;
+    margin-top: 1em;
+}
+
+.vor{
+    
+    border:1px solid grey ;
+    margin-bottom: 0.4em;
+    margin-top: 0.6em;
+}
+
+.vor:hover{
+ background-color: orangered; 
+ color: white;
+}
+
+.stack-b{
+    width: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* medai qureassssssssssssssssssssssss */
+@media (max-width:1030px){
+    .page2-mainn{
+        display: block;
+    }
+    .sildbar{
+        width: 100%;
+    }
+
+    .div-1{
+        min-height: 300px;
+    }
+
+  
+
+  
+}
+
+@media (max-width:553px){
+    .div-1{
+        min-height: 200px;
+    }
+}
+
+@media (max-width:377px){
+   .commt{
+display: block;
+   }
+
+   .in{
+    width: 94%;
+    margin-bottom: 1em;
+   }
+}

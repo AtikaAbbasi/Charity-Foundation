@@ -1,0 +1,52 @@
+@import url(./causes.css);
+
+
+
+.eve-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 2em;
+    gap: 2em;
+}
+
+.onee{
+
+    background-image: url(https://themes.wplook.com/html/charity/assets/images/temp/main-image-3.jpg);
+}
+
+.inputbtn{
+    background-color: orangered;
+}
+
+
+input{
+    border-radius: 0%;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+.card-m{
+    margin-left: 2em;
+  
+}
+
+.conntdivv{
+    display: flex;
+  justify-content: space-around;
+  margin-bottom: 1em;
+  flex-wrap: wrap;
+}
+
+
+.conttcard{
+    /* background-color: blue; */
+    min-height: 100px;
+    margin-top: 2em;
+    margin-left: 2em;
+
+}
+

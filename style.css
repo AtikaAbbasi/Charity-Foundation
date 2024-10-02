@@ -1,0 +1,815 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    /* overflow-x:hidden; */
+    
+}
+
+body{
+    overflow-x: hidden;
+   
+   
+}
+
+.fon-s{
+    font-size: small;
+    border-left: 1px solid gray;
+    padding-left: 0.4em;
+}
+
+.main{
+    max-width: 1400px;
+    overflow-x: hidden !important;
+    margin: 0 auto;
+     padding: 0.6em;
+
+}
+
+/* topnav */
+
+.navtop{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1em;
+    background-color: rgb(234, 234, 234);
+
+    
+
+}
+
+.fa{
+  font-size: 1.4em;  
+}
+     
+
+.span1{
+    padding: 1em;
+    border-left: 1px solid gray;
+    color:  gray;
+    margin-left: -0.3em;
+    
+}
+
+.span1:hover{
+    background-color: rgb(185, 185, 185);
+    cursor: pointer;
+}
+
+.top{
+    color: rgb(79, 78, 78);
+    
+}
+
+
+/* mainnav */
+
+
+
+.navbar{
+    
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    position: sticky;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    z-index: 200;
+}
+
+/* .fon-s{
+    font-size: smaller;
+} */
+
+.bttn1{
+    border: 1px solid orange;
+    color: orange;
+    border-radius: 0;
+    font-weight: bold;
+    width: 100px;
+    /* margin-right: 0.5em; */
+}
+
+.nav-link:hover{
+color: rgb(232, 111, 11)!important;; 
+}
+
+.font{
+    font-family: "Dancing Script", cursive !important;
+    font-weight: 700 !important;
+}
+
+
+
+.bttn1:hover{
+    background-color: rgb(232, 111, 11);
+color: white;
+background-color: rgb(232, 111, 11);
+
+}
+
+.list{
+    border-radius: 0%;
+    padding: 0.5em 0;
+    opacity: 0;
+    max-width: 150px;
+}
+
+.menu:hover .list{
+    opacity: 1;
+}
+
+.dropdown-item:hover{
+    border-right: 2px solid orangered;
+}
+
+.slider{
+    max-width: 99%;
+    min-height: 600px;
+  /* overflow-x: hidden; */
+    
+}
+
+
+.img{
+    width: 500px;
+    height: 300px;
+    /* overflow-y: hidden; */
+}
+
+.connt{
+    background-image: url(https://themes.wplook.com/html/charity/assets/images/temp/slider-intro-image2.jpg);
+    height: 600px;
+    width: 99%px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 7em;
+}
+
+.box{
+    min-height: 288px;
+    width: 500px;
+    background-color: orangered;
+    color: white;
+margin-left: 4em;
+
+}
+
+.imh{
+    background-image: url(https://themes.wplook.com/html/charity/assets/images/temp/slider-intro-image.jpg);
+}
+
+.btton{
+    margin-left: 3em;
+    margin-top: 1.3em;
+    width: 170px;
+    border-radius: 0;
+    background-color: rgba(255, 68, 0, 0);
+    border: 2px solid white;
+    color: white;
+}
+
+.box2{
+    width: 100%;
+    background-color: orangered;
+    min-height: 266px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around ;
+    color: white;
+   
+
+
+}
+
+
+.box3{
+    height: 266px;
+    width: 399px;
+   background-color: orange;
+   color: rgb(59, 41, 34);
+   /* border-right: 2px solid gray; */
+   
+  
+}
+
+.paddng{
+    padding: 2em;
+    border-right: 2px solid gray;
+}
+
+.two{
+    padding-top: 16em;
+}
+
+.raflex{
+    display: flex;
+    /* flex-wrap: wrap; */
+}
+
+.six{
+    padding: 2.5em;
+    border-right: 1px solid rgb(118, 117, 117);
+     border-bottom: 1px solid rgb(112, 112, 112);
+}
+
+.sixx{
+    padding: 2.5em; 
+    border-bottom: 1px solid rgb(108, 108, 108);
+    width: 188px;
+}
+
+.five{
+    border-radius: 0;
+   width: 100%;
+   margin-top: 2em;
+   height: 60px;
+   background-color: orange;
+   border: none;
+   color: rgb(59, 41, 34);
+   
+
+}
+
+.five:hover{
+background-color: rgb(132, 106, 53);
+
+
+}
+
+.part02{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.oreng{
+    color: orange;
+}
+
+.imgh{
+width: 30px;
+/* margin: 0 auto; */
+}
+
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1em;
+    justify-content: center;
+    margin-top: 2em;
+}
+
+/* .hie{
+    height: 100%;
+} */
+
+.onee{
+    background-image:url(https://themes.wplook.com/html/charity/assets/images/temp/featured-1.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+}
+
+.sec{
+ width: 177px;
+ margin-top: 5em; 
+ margin-left: 3.5em;
+ border: 2px solid white;
+ color: white;
+ display: none;
+}
+
+.onee:hover{
+    background: rgb(86,86,86);
+background: linear-gradient(90deg, rgba(86, 86, 86, 0.345) 0%, rgba(114, 114, 114, 0.393) 50%, rgba(111, 111, 111, 0.507) 100%),
+url(https://themes.wplook.com/html/charity/assets/images/temp/featured-1.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.onee:hover .sec{
+background-color: orange;
+display: block;
+color: white;
+
+}
+
+.card{
+   min-height: 480px;
+}
+
+/* .text{
+    
+    
+} */
+
+.twoo{
+    background-image: url(https://themes.wplook.com/html/charity/assets/images/temp/featured-2.jpg);
+}
+
+
+.twoo:hover{
+    background: rgb(86,86,86);
+background: linear-gradient(90deg, rgba(86, 86, 86, 0.345) 0%, rgba(114, 114, 114, 0.393) 50%, rgba(111, 111, 111, 0.507) 100%),
+url(https://themes.wplook.com/html/charity/assets/images/temp/featured-2.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.three{
+    background-image: url(https://themes.wplook.com/html/charity/assets/images/temp/featured-3.jpg);
+}
+
+.three:hover{
+    background: rgb(86,86,86);
+background: linear-gradient(90deg, rgba(86, 86, 86, 0.345) 0%, rgba(114, 114, 114, 0.393) 50%, rgba(111, 111, 111, 0.507) 100%),
+url(https://themes.wplook.com/html/charity/assets/images/temp/featured-3.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.four{
+    background-image:url(https://themes.wplook.com/html/charity/assets/images/temp/featured-4.jpg) ;
+
+}
+
+.four:hover{
+    background: rgb(86,86,86);
+background: linear-gradient(90deg, rgba(86, 86, 86, 0.345) 0%, rgba(114, 114, 114, 0.393) 50%, rgba(111, 111, 111, 0.507) 100%),
+url(https://themes.wplook.com/html/charity/assets/images/temp/featured-4.jpg) ;
+background-repeat: no-repeat;
+background-size: cover;
+}
+
+.part03{
+    display: flex;
+    width: 100%;
+    min-height: 500px;
+}
+
+.slidd{
+    width: 50%;
+  
+}
+
+.black{
+    height:500px ;
+}
+
+.whitee{
+    width: 50%;
+    background-color: rgb(32, 31, 31);
+    color: white;
+    min-height:500px ;
+    padding: 2em;
+    text-transform: uppercase;
+}
+
+.txt{
+display: flex;
+gap: 3em;
+
+}
+
+.our{
+    
+}
+
+.our:hover{
+   background-color: orangered; 
+}
+
+.txxt{
+
+    margin-left: 14em;
+}
+
+.maintwo{
+    display: flex;
+    width: 100%;
+    min-height: 600px;
+}
+
+.cont1{
+    width: 50%;
+}
+
+.act{
+    display: flex;
+    max-width: 100%;
+}
+
+.tivv{
+    background-image: url(https://themes.wplook.com/html/charity/assets/images/temp/news-image.jpg);
+    height: 277px;
+   width: 50%;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: relative;
+   margin-top: 1.3em;
+}
+
+.colo{
+    width: 100%;
+    min-height: 40px;
+    background-color: orange;
+    position: absolute;
+    bottom: 0;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+  
+
+}
+
+.fd{
+    font-size: 1.2em;
+  padding-top: 0.4em;
+  padding-left: 0.9em;
+}
+
+.fixx{
+    max-width: 50%;
+    padding: 1em;
+}
+
+.pass:hover{
+    color: orange;
+}
+
+.nxt{
+    display: flex;
+   
+}
+
+.hih{
+    height: 100px;
+    width: 144px;
+    margin-left: 1em;
+    margin-top: 1em;
+ 
+}
+
+.abov{
+    display: flex;
+
+}
+
+.succ{
+    width: 188px;
+    height: 40px;
+    border-radius: 0;
+    margin-left: 5em;
+    margin-top: 3.5em;
+    background-color: rgb(73, 73, 229);
+    border: 2px solid white;
+}
+
+.succ:hover{
+    background-color: rgba(73, 73, 229, 0);
+color:  rgb(73, 73, 229);
+    border: 2px solid  rgb(73, 73, 229); ;
+}
+
+.liter{
+    height: 300px;
+    width: 100%;
+    margin-top: 2em;
+}
+
+.spaan{
+    display: flex;
+    gap: 1em;
+    margin-top: 2em;
+}
+
+
+.line-1{
+    display: flex;
+}
+
+.stafff{
+    display: flex;
+   
+}
+
+.conta1{
+    width: 320px;
+    text-align: center;
+    padding-top: 2em;
+
+  
+}
+
+.stafff:hover .conta1{
+    background-color: orangered;
+    color: white;
+}
+
+.headd{
+  text-align: center;
+  
+}
+
+/* slidpart3 */
+
+.indx{
+    width: 100%;
+    min-height: 300px;
+    background-color: orangered;
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+text-align: center;
+
+padding: 0.3em;
+
+   
+}
+
+/* .viv{
+   padding-top: 8em;
+} */
+
+.bor{
+    border: 1px solid rgb(78, 78, 78);
+    width: 200px;
+     margin: 0 auto;
+     margin-top: 1em;
+    
+}
+
+.ssel{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+    color: white;
+    width: 100%;
+    min-height:200px ;
+    padding: 1em;
+}
+
+.chge{
+    display: flex;
+}
+
+.chgebton{
+    width: 177px;
+    height: 40px;
+    border-radius: 0;
+    border:  1px solid orangered;
+    color: orangered;
+}
+
+.chgebton:hover{
+ 
+    border:  1px solid orangered;
+    background-color: orangered;
+    color: rgb(255, 255, 255);
+}
+
+.or{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: white;
+    background-color: gray;
+    padding: 0.1em;
+    text-align: center;
+}
+
+.footr{
+    background-image: url(https://themes.wplook.com/html/charity/assets/images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    color: rgb(190, 190, 190);
+  padding: 1em;
+    align-items: center;
+
+}
+ul{
+   list-style: none;
+   width: 20%;
+
+   
+}
+
+.min{
+    border: 1px solid orangered;
+    width: 87px;
+}
+
+li:hover{
+    color: white;
+}
+
+.inputbtn{
+    background-color: orange;
+    color: white;
+}
+
+.footer2{
+    width: 100%;
+    padding: 2em;
+    background-color: rgb(21, 20, 20);
+    display: flex;
+    justify-content: space-between;
+    color: rgb(193, 193, 193);
+    flex-wrap: wrap;
+}
+
+.hrf{
+    text-decoration: none;
+    color: gray;
+}
+
+.hrf:hover{
+    color: white;
+}
+
+.footh{
+    border: none;
+
+}
+
+.footh:hover{
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.inputbtn{
+    background-color: orangered;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media queries */
+@media( max-width:1030px){
+.part03{
+    display: block;
+   
+}
+
+.line-1{
+    display: block;
+}
+
+.staff-r{
+    flex-direction: row-reverse;
+}
+
+.cont1{
+    width: 100%;
+}
+
+.maintwo{
+    display: block;
+}
+
+.txxt{
+    margin-left: -1em;
+}
+
+.slidd{
+    width: 100%;
+  
+}
+
+.whitee{
+    width: 100%;
+}
+
+.bttn1{
+    display: none;
+  }
+
+
+}
+
+
+@media( max-width:990px){
+   
+    
+    
+ 
+    }
+    @media( max-width:990px){
+    .connt{
+        padding-top: 6em;
+    }
+
+    .ssel{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footr{
+        display: block;
+        padding: 0.5em;
+        padding-left: 0;
+
+    }
+
+    ul{
+        width: 100%;
+    }
+
+    .txt{
+        display: block;
+    }
+
+
+    }
+
+    @media (max-width:700px){
+        .hie{
+            height: 300px;
+        }
+
+        .box{
+          
+         width: 88%;
+
+           
+        }
+    }
+
+
+@media( max-width:557px){
+    .navtop{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+      
+    }
+
+    .stafff{
+        display: block;
+    }
+    .span1{
+        border: none;
+        padding: 0.7em;
+    }
+
+    .staff-c{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .http{
+        width: 100%;
+    }
+}
+
+
+@media( max-width:450px){
+    .chge{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1em;
+    }
+
+    .act{
+        display: block;
+    }
+
+    .tivv{
+        width: 100%;
+    }
+
+
+    .fixx{
+        max-width: 100%;
+    }
+
+    .sp-line{
+        display: none;
+    }
+
+    .hie{
+        height: 200px;
+    }
+}
